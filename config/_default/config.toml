@@ -1,0 +1,26 @@
+######################## default configuration ####################
+baseURL = "https://example.com/"
+title = "Bexer - Hugo Business Theme"
+theme = "jquery-hugo"
+
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+[markup]
+[markup.goldmark.renderer]
+unsafe= true
+
+[mediaTypes]
+[mediaTypes."application/manifest+json"]
+suffixes = ["webmanifest"]
+
+[mediaTypes."text/netlify"]
+delimiter = ""
+suffixes = [""]
+
+[outputFormats]
+[outputFormats.WebAppManifest]
+mediaType = "application/manifest+json"
+rel = "manifest"

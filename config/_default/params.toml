@@ -1,0 +1,5 @@
+########################### Default parameters ######################
+logo = "images/logo.png"
+logo_width = "149px"
+logo_footer = "images/logo-alt.png"
+favicon = "images/favicon.png"
